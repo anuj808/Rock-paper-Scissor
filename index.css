@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+ h1{
+    background: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+ }
+ .chooice{
+    height: 150px ;
+    width: 150px ;
+    border: 2px solid  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border-radius: 50%;
+cursor: pointer;
+ }
+ .chooice:hover{
+    opacity: 0.5 ;
+ }
+ .choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 20px ;
+ }
+
+ .score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    gap: 5rem;
+    margin-top: 50px ;
+ }
+
+ #user-score , #comp-score{
+    font-size: 4rem;
+ }
+ .msg-container{
+    margin-top: 5rem;
+ }
+ #msg{
+    background: #7f0643;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+ }
+
+ 
+ @media (max-width:480px ) {
+    h1{
+        background: #081b31;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+     }
+
+     #msg{
+        background: #7f0643;
+        color: white;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+     }
+
+     .chooice{
+        height: 100px ;
+        width: 100px ;
+        border: 2px solid  black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+     }
+     .chooice:hover{
+        opacity: 0.5 ;
+     }
+     .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 20px ;
+     }
+    
+     .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        gap: 5rem;
+        margin-top: 50px ;
+     }
+    
+     #user-score , #comp-score{
+        font-size: 4rem;
+     }
+     .msg-container{
+        margin-top: 5rem;
+     }
+    
+   
+ }
+
+ @media (min-width:481px ) and (max-width:767px){
+    h1{
+        background: #081b31;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+     }
+
+     #msg{
+        background: #7f0643;
+        color: white;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+     }
+
+     .chooice{
+        height: 100px ;
+        width: 100px ;
+        border: 2px solid  black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+     }
+     .chooice:hover{
+        opacity: 0.5 ;
+     }
+     .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 20px ;
+     }
+    
+     .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        gap: 5rem;
+        margin-top: 50px ;
+     }
+    
+     #user-score , #comp-score{
+        font-size: 4rem;
+     }
+     .msg-container{
+        margin-top: 5rem;
+     }
+
+ }
+
+ @media (min-width:767px ) and (max-width:1024px) {
+
+    h1{
+        background: #081b31;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+     }
+
+     #msg{
+        background: #7f0643;
+        color: white;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+     }
+
+     .chooice{
+        height: 100px ;
+        width: 100px ;
+        border: 2px solid  black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+     }
+     .chooice:hover{
+        opacity: 0.5 ;
+     }
+     .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 20px ;
+     }
+    
+     .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        gap: 5rem;
+        margin-top: 50px ;
+     }
+    
+     #user-score , #comp-score{
+        font-size: 4rem;
+     }
+     .msg-container{
+        margin-top: 5rem;
+     }
+ }
+
+ @media (min-width:1025px) and (max-width:1280px) {
+
+
+    h1{
+        background: #081b31;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+     }
+
+     #msg{
+        background: #7f0643;
+        color: white;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+     }
+
+     .chooice{
+        height: 100px ;
+        width: 100px ;
+        border: 2px solid  black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+     }
+     .chooice:hover{
+        opacity: 0.5 ;
+     }
+     .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 20px ;
+     }
+    
+     .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        gap: 5rem;
+        margin-top: 50px ;
+     }
+    
+     #user-score , #comp-score{
+        font-size: 4rem;
+     }
+     .msg-container{
+        margin-top: 5rem;
+     }     
+ }
+ 
+
+ @media (min-width:1281px ) {
+
+    h1{
+        background: #081b31;
+        color: white;
+        height: 5rem;
+        line-height: 5rem;
+     }
+
+     #msg{
+        background: #7f0643;
+        color: white;
+        display: inline;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+     }
+
+     .chooice{
+        height: 100px ;
+        width: 100px ;
+        border: 2px solid  black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+     }
+     .chooice:hover{
+        opacity: 0.5 ;
+     }
+     .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 20px ;
+     }
+    
+     .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        gap: 5rem;
+        margin-top: 50px ;
+     }
+    
+     #user-score , #comp-score{
+        font-size: 4rem;
+     }
+     .msg-container{
+        margin-top: 5rem;
+     }
+ }
